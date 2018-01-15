@@ -20,7 +20,20 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Command | Description
+------------ | -------------
+ls | how files
+mv | move a file
+man | help doc for a command
+locate | find a file
+clear | clear terminal screen
+tar | create archive
+grep | regex file contents
+ssh | login to remote
+awk | parse text files
+diff | compare difference between two text files
+sort | sort file contents
+chmod | change permissions
 
 ---
 
@@ -35,7 +48,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Command | Description
+------------ | -------------
+`ls` | list files in directory
+`ls -a` | + hidden files too
+`ls -l` | + shows file detail info
+`ls -lh` | + same as above but the size column is more readable with appropriate units
+`ls -lah` | + same as above but also includes hidden files
+`ls -t` | + sort files by mod date in asc order
+`ls -Glp` | + file details and add a slash at the end of directory names
 
 ---
 
@@ -43,7 +64,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> r, R, u, m, t
 
 ---
 
@@ -51,7 +72,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> Helps execute commands by passing in an argument list
+> find ./Desktop -print | xargs grep "ls"
+
 
  
 
